@@ -1,0 +1,74 @@
+# ===============================
+# Python basics
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# ===============================
+# Jupyter / Notebooks
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# ML / AI artifacts
+# ===============================
+# Model weights & checkpoints
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+
+# Training outputs
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+tb_logs/
+
+# Datasets (keep raw data out of git)
+data/
+datasets/
+
+# ===============================
+# Experiment tracking
+# ===============================
+*.log
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# ===============================
+# Packaging / build
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Secrets
+# ===============================
+.env
+secrets/
+
+uv.lock
